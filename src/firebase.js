@@ -9,13 +9,13 @@
 
 // // Your web app's Firebase configuration
 // const firebaseConfig = {
-//   apiKey: "AIzaSyDBoCwoAwvgtrMJgsWPgyBpUsXrV3CxS5U",
-//   authDomain: "airbus-ce825.firebaseapp.com",
-//   projectId: "airbus-ce825",
-//   storageBucket: "airbus-ce825.appspot.com",
-//   messagingSenderId: "524312709030",
-//   appId: "1:524312709030:web:9fb6d6731e0d26760c7167",
-//   measurementId: "G-1YZQ7D23RT"
+//   apiKey: "AIzaSyDy3eQdT8qN1FWiTAecpxo6JM3BVW0Mq3Q",
+//   authDomain: "airbus1-cbd2d.firebaseapp.com",
+//   projectId: "airbus1-cbd2d",
+//   storageBucket: "airbus1-cbd2d.appspot.com",
+//   messagingSenderId: "556033589146",
+//   appId: "1:556033589146:web:4fed8ede5424f80f748423",
+//   measurementId: "G-1R2WC59TC9"
 //   };
   
 //   // Initialize Firebase
