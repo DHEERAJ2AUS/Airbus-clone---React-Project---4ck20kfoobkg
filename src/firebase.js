@@ -21,8 +21,8 @@
 //   // Initialize Firebase
 //   const app = initializeApp(firebaseConfig);
 
-// const auth = getAuth(app);
-// const provider = new GoogleAuthProvider();
-// const db = getFirestore(app);
+// // const auth = getAuth(app);
+// // const provider = new GoogleAuthProvider();
+// // const db = getFirestore(app);
 
-// export { auth , provider , db };
+// // export { auth , provider , db };
