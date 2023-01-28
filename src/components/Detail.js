@@ -86,4 +86,4 @@ const Detail = (props) => {
 
 export default Detail
 
-// onClick={props.switch} 
+// onClick={props.switch}
