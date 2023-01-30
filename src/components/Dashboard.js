@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import backg from './5859.jpg'
+// import backg from './5859.jpg'
 import Search from './Search'
 import Available from './Available'
 import Detail from './Detail'
@@ -12,8 +12,7 @@ const Dashboard = () => {
   const [Last, setLast] = useState('')
 
   return (
-    <div className='w-full h-full gb-no-repeat bg-cover'
-    style={{backgroundImage: `url(${backg})`}}>
+    <div className='dasbordbg'>
         <div className='flex items-center justify-center  h-screen flex-col justify-evenly' >
         <Search start={setFrom} last={setLast} switch1={() => setOpenModal(true)} />
         <Available/>

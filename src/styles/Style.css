@@ -112,6 +112,7 @@
 
 .login{
     background-color: greenyellow;
+    border-radius: 8px;
     
 }
 
@@ -125,6 +126,8 @@
     width: 70%;
     padding: 20px;
     gap: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
 }
 
 .searchflight{
@@ -133,11 +136,14 @@
     width: 70%;
     padding: 7 px;
     margin-bottom: 2px;
+    border-radius: 8px;
     
 
 }
 
 /* Available */
+
+
 
 
 
@@ -153,7 +159,15 @@
 }
 
 /* flight */
+.flight1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
 
+}
 .flightbrand{
     height: auto;
     width: 20px;
@@ -178,3 +192,7 @@
 /* result */
 
 
+/* dasboard */
+.dasbordbg{
+    background-color: purple;
+}

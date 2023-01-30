@@ -3,7 +3,7 @@ import '../styles/Style.css'
 
 const Flight = ({plane}) => {
     return (
-        <div className='flex  border-1 shadow-lg my-1 px-2  justify-between w-full h-[8rem] ' >
+        <div className='flight1 ' >
             <div className='flex flex-col items-center justify-center mx-3 '>
                 <p className='place-self-start text-slate-400 text-sm ' >Airline Name</p>
                 <p className='text-lg ' >{plane.airlineName}</p>
