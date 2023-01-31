@@ -14,7 +14,7 @@ const Search = ({start , last , switch1}) => {
     return (
         <div className='flex items-center justify-center flex-col'>
             <div className='flex flex-col ' >
-                <h1 className='text-5xl my-3 text-white font-medium place-self-start' >Let start Journey</h1>
+                <h1 className='journey' >Let start Journey</h1>
                 <div className='search' >
                  
                     <div className='flex flex-col items-center justify-center mx-3 '>

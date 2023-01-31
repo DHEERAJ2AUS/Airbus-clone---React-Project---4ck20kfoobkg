@@ -112,16 +112,24 @@
 
 .login{
     background-color: greenyellow;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
     border-radius: 8px;
     
 }
 
 /* search */
 
+.journey{
+    margin: auto;
+    
+    
+    
+}
+
 .search{
     display: flex;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: burlywood;
     margin: auto;
     width: 70%;
     padding: 20px;
@@ -137,6 +145,8 @@
     padding: 7 px;
     margin-bottom: 2px;
     border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    
     
 
 }
@@ -149,14 +159,69 @@
 
 /* payment */
 
+
+    
+   
+   
+
+
 .payment{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+
+}
+
+.ticketdetail{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flightname{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.durair{
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.departure{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.return{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.faresummary{
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .card{
-    align-items: center;
-    justify-content: space-evenly;
+    background-color: burlywood;
+    text-align: center;
+    margin:170px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    
 }
+
 
 /* flight */
 .flight1{
@@ -165,7 +230,12 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: antiquewhite;
+    background-color: burlywood;
+    margin: 50px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
 
 }
 .flightbrand{
@@ -177,22 +247,85 @@
 /* detail */
 
 
+
+.noflight{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .price{
+    background-color: burlywood;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    border-radius: 8px;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+
+
+
+}
+
+.timee{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.departure{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cancel{
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    background-color: burlywood;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    border-radius: 8px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+/* .price{
     background-color: greenyellow;
     align-items: flex-start;
     display: flex;
-}
+} */
 
 .checkout{
-    background-color: red;
+    background-color: greenyellow;
     height: 50px; ;
     width: 200px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    border-radius: 8px;
+
 }
 
 /* result */
+
+.submit{
+    background-color: greenyellow;
+    height: 30px; ;
+    width: 100px;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    border-radius: 8px;
+
+}
 
 
 /* dasboard */
 .dasbordbg{
     background-color: purple;
 }
+
+

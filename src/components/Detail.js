@@ -38,8 +38,8 @@ const Detail = (props) => {
                 data.length > 0 
                  ?(
                     <div className='price'>
-                        <div className='flex justify-evenly border-b-4 bg-amber-400 text-white' >
-                           <div className='text-3xl font-medium place-self-center' >{data[0].from}</div>
+                        <div className='timee' >
+                           <div className='text-3xl font-medium place-self-center' ><h1>{data[0].from}</h1></div>
                            <div className='flex flex-col' >
                             <h2 className='text-base my-2' >{data[0].duration}</h2>
                             <img 
@@ -49,9 +49,9 @@ const Detail = (props) => {
                                 height={50}
                                />
                            </div> 
-                           <div className='text-3xl font-medium place-self-center' >{data[0].to}</div>
+                           <div className='text-3xl font-medium place-self-center' ><h1>{data[0].to}</h1></div>
                         </div>
-                        <div className='flex justify-around items-center py-2'>
+                        <div className='departure'>
                            <div className='flex flex-col justify-center content-around border-r-1 ' >
                               <h2 className='border-b-2 text-base my-1 '><span className='font-lg' >Departure Time : </span>{data[0].departure.departureTime}</h2>
                               <h2 className='border-b-2 text-base my-1 '><span className='font-lg' >Return Time : </span>{data[0].return.returnTime}</h2>
@@ -67,12 +67,12 @@ const Detail = (props) => {
                     </div> 
                  )
                  :
-                 <div className='text-3xl text-grey-400 flex justify-center mt-3' >No Flight For Given Filter</div>
+                 <div className='noflight' ><h1>No Flight For Given Filter</h1></div>
             }
 
             <div className="bg-gray-50 px-4 py-3 sm:flex justify-center sm:flex-row-reverse sm:px-6">
               <button type="button"
-                className="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                className="cancel"
                 onClick={props.switch}
               >Cancel</button>
             </div>
