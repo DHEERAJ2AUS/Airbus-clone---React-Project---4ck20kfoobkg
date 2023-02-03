@@ -9,7 +9,7 @@ const Result = () => {
   const { st  } = useContext(MediumContext)
 
   return (
-    <div className='flex justify-center w-full ' >
+    <div className='paypage' >
 
     { st ?
       <Payment data={st} />

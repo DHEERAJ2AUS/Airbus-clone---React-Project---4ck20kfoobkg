@@ -95,63 +95,130 @@
 /* navbar */
 
 .navbar{
-    background-color: greenyellow;
-
+    background-color:rgb(116, 116, 175);
+    
 }
 .logo{
     height: auto;
-    width: 200px;
+    width: 93px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 50%;
 
 
 }
 
 .navbar1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding: 19px;
+
 }
 
 .login{
     background-color: greenyellow;
     box-shadow: 10px 10px 5px rgb(64, 67, 68);
     border-radius: 8px;
+    padding: 30px
     
 }
 
 /* search */
+input[type="text" i] {
+    border-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="date" i] {
+    border-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.happy{
+    font-size: 62px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-top: -130px;
+    font-family: 'Itim', cursive;
+}
+
+.hope{
+    font-size: 62px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-top: -5px;
+    font-family: 'Itim', cursive;
+}
+.searchbar{
+    padding: 151px;
+    background-color: lightblue;
+    
+
+}
 
 .journey{
-    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    padding-top: 50px;
     
     
     
 }
 
 .search{
+
     display: flex;
     justify-content: space-evenly;
-    background-color: burlywood;
+    background-color: darkorchid;
     margin: auto;
     width: 70%;
-    padding: 20px;
-    gap: 20px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    gap: 20px;   
+    background: #fff;
+    border-radius: 10px;
+    padding: 13px 75px 40px 75px;
 }
 
+.search:hover{
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+
+}
 .searchflight{
-    background-color: greenyellow;
+    background-color:green;
+    color: white;
     margin: auto;
-    width: 70%;
     padding: 7 px;
     margin-bottom: 2px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
-    
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    position: relative;
+    border-color: white;
+    font-weight: 600;
+    cursor: pointer;
     
 
 }
 
+.searchflight:hover{
+    background-color: blue;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+
+
+}
+
+
 /* Available */
+.available{
+    text-align: center;
+    color: white;
+}
 
 
 
@@ -167,7 +234,7 @@
 
 .payment{
     /* background-color: greenyellow; */
-    background-color: burlywood;
+    background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -175,6 +242,10 @@
     padding: 20px;
     gap: 20px;
     border-radius: 8px;
+
+}
+
+.payment:hover{
     box-shadow: 10px 10px 5px rgb(64, 67, 68);
 
 }
@@ -213,13 +284,18 @@
 }
 
 .card{
-    background-color: burlywood;
+    background-color: lightgray;
     text-align: center;
     margin:170px;
     padding: 50px;
     border-radius: 8px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
     
+}
+
+.card:hover{
+
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+
 }
 
 
@@ -230,12 +306,17 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: burlywood;
+    background-color:cornflowerblue;
     margin: 50px;
     padding: 20px;
     gap: 20px;
     border-radius: 8px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+
+}
+
+.flight1:hover{
+    box-shadow: 10px 10px 5px gray;
+    
 
 }
 .flightbrand{
@@ -255,14 +336,15 @@
 }
 
 .price{
-    background-color: burlywood;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    background-color: lightgray;
     border-radius: 8px;
     width: 50%;
     justify-content: space-evenly;
     margin: auto;
+}
 
-
+.price:hover{
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
 
 }
 
@@ -285,14 +367,19 @@
     justify-content: space-evenly;
     padding: 20px;
     gap: 20px;
-    background-color: burlywood;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    background-color: lightgray;
     border-radius: 8px;
     width: 30%;
     margin: auto;
     display: flex;
     align-items: center;
     
+
+}
+
+.cancel:hover{
+    background-color: red;
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
 
 }
 
@@ -303,29 +390,45 @@
 } */
 
 .checkout{
-    background-color: greenyellow;
+    background-color: green;
     height: 50px; ;
     width: 200px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
     border-radius: 8px;
+
+}
+
+.checkout:hover{
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    background-color: blue;
 
 }
 
 /* result */
 
+.paypage{
+    background-color: lightblue;
+    padding: 30px;
+}
+
 .submit{
-    background-color: greenyellow;
+    background-color: green;
     height: 30px; ;
     width: 100px;
-    box-shadow: 10px 10px 5px rgb(64, 67, 68);
     border-radius: 8px;
+
+}
+
+.submit:hover{
+    box-shadow: 10px 10px 5px rgb(64, 67, 68);
+    background-color: blue;
+
 
 }
 
 
 /* dasboard */
 .dasbordbg{
-    background-color: purple;
+    background-color: lightblue;
 }
 
 

@@ -13,32 +13,34 @@ const Search = ({start , last , switch1}) => {
 
     return (
         <div className='flex items-center justify-center flex-col'>
-            <div className='flex flex-col ' >
+            <div className='searchbar' >
+            <h1 className='happy'>Happy   Journey</h1>
                 <h1 className='journey' >Let start Journey</h1>
                 <div className='search' >
                  
                     <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >From</p>
-                        <input type="text" onChange={(e)=>{start(e.target.value)}}  placeholder='DELHI' className='border-b-4 ' />
+                        <p className='place' >From</p>
+                        <input type="text" onChange={(e)=>{start(e.target.value)}}  placeholder='Enter city' className='border-b-4 ' />
                     </div>
                     <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >to</p>
-                        <input type="text" onChange={(e)=>{last(e.target.value)}} placeholder='MUMBAI' className='border-b-4 ' />
+                        <p className='place' >To</p>
+                        <input type="text" onChange={(e)=>{last(e.target.value)}} placeholder='Enter city' className='border-b-4 ' />
                     </div>
                     <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >Depart</p>
+                        <p className='place' >Depart</p>
                         <input type="date" className='border-b-4 ' onChange={hundleDep} />
                     </div>
                     <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >Return</p>
+                        <p className='place' >Return</p>
                         <input type="date" className='border-b-4 ' onChange={hundleRet} />
                     </div>
 
                     <button className='searchflight ' onClick={switch1} >
-                        SEARCH FLIGHTS
+                        SEARCH
                     </button>
                  
                 </div>
+                <h1 className='hope' >Hope you make millions of amazing memories</h1>
             </div>
         </div>
     )
